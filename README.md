@@ -9,9 +9,9 @@
 ## Table of Contents
 * **[1. Design requirements](#1---design-requirements)**
 	* [1.1 Onclick](#11---Onclick)
-	* [1.2 Template-String](#12---Template-String/Template-literals)
+	* [1.2 Template-String](#12---Template-String)
 	* [1.3 addEventListener() method](#13---addEventListener()-method)
-	* [1.4 Double-Click](#14---double--Click)
+	* [1.4 Double Click](#14---Double--Click)
 * **[1. Design requirements](#1---design-requirements)**
 	* [1.1 Structure Design](#11---Structure-design)
 	* [1.2 Colors](#12---colors)
