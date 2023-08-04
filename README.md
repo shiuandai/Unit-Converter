@@ -20,11 +20,11 @@
 
 > The **Unit Converter** is my fourth static website, I practice to build the function() and use "Template String" to make code easily to read.
 
-I start the Scrimba Module 2 course- Web dev basics and learn how to use basic HTML & CSS knowledge. At the end of the course, I follow the Figma template to finish my hometown page where you can know more about me, take a look at the → [My Hometown Homepage](https://shiuandai.github.io/Hometown-Homepage/).
+I start the Scrimba Module 2 course- Web dev basics and learn how to use basic HTML, CSS & JavaScript knowledge. At the end of the course, I follow the Figma template to finish my hometown page where you can know more about me, take a look at the → [Unit Converter](https://shiuandai.github.io/Unit-Converter/).
 
 ## How I start the project?
 
-* Ensure all points are taken into consideration from Figma Template. → [Figma Template from Scrimba](https://www.figma.com/file/2QuGfAOcHaZJ6aHXfuamnK/Hometown-Homepage?type=design&node-id=0%3A1&mode=design&t=JhG1UWTiUmIeW14l-1)
+* Ensure all points are taken into consideration from Figma Template. → [Figma Template from Scrimba](https://www.figma.com/file/cqtGul0V8RFXY4vTcIv1Kc/Unit-Conversion?type=design&node-id=0-1&mode=design&t=VhkuEmfZw4OMoEqd-0)
 * Having a materials preparation document where I collect pictures/text information/text font/color to match a better visual communication and coherence in one page.
 * It's important to brainstorm the HTML structure before starting coding, this step helps me save time.
 * Use the "DRY" concept (Don't Repeat Yourself), so that I learn from tailoring the developer's code and learn from it and Scrimba course.
