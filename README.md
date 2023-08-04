@@ -10,8 +10,8 @@
 * **[1. Design requirements](#1---design-requirements)**
 	* [1.1 Onclick](#11---Onclick)
 	* [1.2 Template-String](#12---Template-String)
-	* [1.3 addEventListener() method](#13---addEventListener()-method)
-	* [1.4 Double Click](#14---Double--Click)
+	* [1.3 addEventListener()](#13---addEventListener())
+	* [1.4 Double Click](#14---Double-Click)
 * **[1. Design requirements](#1---design-requirements)**
 	* [1.1 Structure Design](#11---Structure-design)
 	* [1.2 Colors](#12---colors)
@@ -71,7 +71,7 @@ for (let i = 0; i < myLeads.length; i++) {
 
 **[⬆ back to top](#table-of-contents)**
 
-### 1.3 - addEventListener() method
+### 1.3 - addEventListener()
 
 Another method to active the button.
 
