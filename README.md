@@ -10,7 +10,7 @@
 * **[1. Design requirements](#1---design-requirements)**
 	* [1.1 Onclick](#11---Onclick)
 	* [1.2 Template-String](#12---Template-String)
-	* [1.3 AddEventListener()](#13---addEventListener())
+	* [1.3 AddEventListener()](#13---AddEventListener())
 	* [1.4 Double Click](#14---Double-Click)
 
 ---
