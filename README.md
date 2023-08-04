@@ -25,10 +25,9 @@ I start the Scrimba Module 2 course- Web dev basics and learn how to use basic H
 ## How I start the project?
 
 * Ensure all points are taken into consideration from Figma Template. → [Figma Template from Scrimba](https://www.figma.com/file/cqtGul0V8RFXY4vTcIv1Kc/Unit-Conversion?type=design&node-id=0-1&mode=design&t=VhkuEmfZw4OMoEqd-0)
-* Having a materials preparation document where I collect pictures/text information/text font/color to match a better visual communication and coherence in one page.
-* It's important to brainstorm the HTML structure before starting coding, this step helps me save time.
-* Use the "DRY" concept (Don't Repeat Yourself), so that I learn from tailoring the developer's code and learn from it and Scrimba course.
-* To show the completed work between a Web and a template, I prefer refining the CSS code to make sure the project can align the design.
+* Generate all conversions when the user click "Convert".
+* Round the numbers down to 3 decimal places.
+* Use the "Template String/Template literals" concept in the project to show the conversion result.
 
 ---
 
