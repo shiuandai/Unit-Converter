@@ -33,76 +33,71 @@ I start the Scrimba Module 2 course- Web dev basics and learn how to use basic H
 
 ## 1. - Design requirements
 
-Designing a hometown homepage website requires following some rules and taking into consideration that the project is not only a graphic project but a web project too. The next sections are crucial for any web project.
+Designing a unit converter website requires following some rules and taking into consideration that the project is not only a graphic project but a web project too. The next sections are crucial for any web project.
 
-### 1.1 - Structure design
+### 1.1 - Onclick
 
-* [ ] **HTML** is "HyperText Markup Language" It defines the meaning and structure of web content. The Web Designer should keep the structure simple and the similar content should be grouped together to make sure it can be read clearly.
-	> ℹ️ [HTML] GET to know more about the definition. → [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML)
-
+* [ ] **onclick** Call a function when a button is clicked:.
+	> ℹ️ [onclick] GET to know more about the definition. → [W3School](https://www.w3schools.com/jsref/event_onclick.asp)
 * [ ] **Be familiar with the HTML Tag**. 
 * [ ] Before working on each website project, I can **build every template** with my own structure concept. Building the structure before everything else will facilitate my work afterward.
 
 ```html
-<div class="container">
-  <div class="row">
-    <div class="col-sm">
-    </div>
-  </div>
-</div>
+<button onclick="myFunction()">Click me</button>
 ```
 
-⚠️ *Use the "container" to define which tags should be contained inside, they perform "active" when using the **flex-box**, it is a crucial method to foster the web structure building.* 
+**[⬆ back to top](#table-of-contents)**
+
+### 1.2 - Template String/Template literals
+
+Why do we use template string. The main purpose is easy to read→ [Explanation](https://levelup.gitconnected.com/what-are-template-literals-and-why-should-you-use-it-in-javascript-3468bfaeb05d)
+
+* [ ] **Template String is a string interpolation with embedded expressions**
+* [ ] Below it is an example to show how to use it.
+
+```js
+for (let i = 0; i < myLeads.length; i++) {
+     // listItems += "<li><a target='_blank' href='" + myLeads[i] + "'>" + myLeads[i] + "</a></li>"
+        listItems += `
+            <li>
+                <a target='_blank' href='${myLeads[i]}'>
+                    ${myLeads[i]}
+                </a>
+            </li>
+```
+
 
 **[⬆ back to top](#table-of-contents)**
 
-### 1.2 - Colors
+### 1.3 - addEventListener() method
 
-You can "SAVE" your color preference in your account. → [Color Palette](https://scrimba.com/links/hometown-palette)
+Another method to active the button.
 
-* [ ] **All colors used in the creatives are named** (RED: #E63946, LIGHT: #F1FAEE, AQUA: #A8DADC, LIGHT BLUE: #457B9D, DARK BLUE: #1D3557) which are provided by Scrimba course so that they become the basic color guideline to use in my project.
+The addEventListener() method attaches an event handler to the specified element. Example shows below.
 
-* [ ] All of the most important/used **colors contrast** in the design to allow text with the background can be easily read.
-
-**[⬆ back to top](#table-of-contents)**
-
-### 1.3 - Fonts and texts
-
-Fonts are an essential part of every design.
-
-It is recommended to organize the font size and style in the design process. There are several websites where the designer can download the font. ([Google font](https://fonts.google.com/)).
-
-* [ ] Using the technique **@font-face** in CSS, the link is embedded in the CSS. 
+```js
+document.getElementById("myBtn").addEventListener("click", displayDate);
+```
 
   __Resources:__
-	* 📖 [Using @font-face | CSS-Tricks](https://css-tricks.com/snippets/css/using-font-face/)
+	* 📖 [addEventListener()](https://www.w3schools.com/js/js_htmldom_eventlistener.asp)
 
-* [ ] The **Web Safe Fonts** is an important concept. Web-safe fonts are fonts that are pre-installed by many operating systems. While not all systems have the same fonts installed, you can use a web-safe font stack to choose several fonts that look similar and are installed on the various systems that you want to support.
 
 **[⬆ back to top](#table-of-contents)**
 
 
-### 1.4 - Publish files
+### 1.4 - Double Click
 
-* [ ] How to host your website, there are several ways. 1. **Netlify** provides next-generation web hosting and automation that's very affordable. Is can be integrated with Github for publishing the web easily. The alternative is using Github Page, my way is to use Github Page. → [Comparison of Github Page and Netlify](https://www.freecodecamp.org/news/publish-your-website-netlify-github/) 
-
-## 2. - Pre-work phases
-
-### 2.1 - Refine the project using CSS
-
-It is recommended to master the **flex-box** concept, it usually combines with different **Property** like **flex-direction: column; align-items: center;** .
-
-Define what condition to use the flex-box, it influences how the content displayed.
-
-⚠️ *When using the flex-box, it is good to use the property of "gap" rather than "margin" to generate the gap.*
-
-## 3. - Before production
-
-Before launching your website, be sure to review all your code and make sure the text layout and comment it's easy to read for another programmer.
-
-**[⬆ back to top](#table-of-contents)**
-
----
+* [ ] When double click the function will be actived.
+      
+```js
+const deleteBtn = document.getElementById("delete-btn")
+deleteBtn.addEventListener("dblclick", function() {
+    localStorage.clear()
+    myLeads = []
+    render(myLeads)
+})
+```
 
 ## Author
 
