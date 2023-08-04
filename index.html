@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css">
+        <!-- input the "inter" font file -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap" rel="stylesheet">
+        <!-- input the "inter bold" font file -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap" rel="stylesheet">
+        <!-- input the "inter normal" font file -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="container_1">
+            <h1>Metric/Imperial Unit Conversion</h1>
+            <input type="text" id="input_number" name="input_number">
+            <button id="input-btn" onclick="unit_converter()">Convert</button>
+        </div>
+        <div id="container_2">
+            <div class="box">
+                <P class="unit_header">Length (Meter/Feet)</P>
+                <p class="unit_convert" id="length_convert"></p>
+            </div>
+            <div class="box">
+                <P class="unit_header">Volume (Liters/Gallons)</P>
+                <p class="unit_convert" id="volume_convert"></p>
+            </div>
+            <div class="box">
+                <P class="unit_header">Mass (Kilograms/Pounds)</P>
+                <p class="unit_convert" id="unit_convert"></p>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
