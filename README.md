@@ -9,9 +9,9 @@
 ## Table of Contents
 * **[1. Design requirements](#1---design-requirements)**
 	* [1.1 Onclick](#11---Onclick)
-	* [1.2 Template String](#12---Template-String/Template-literals)
+	* [1.2 Template-String](#12---Template-String/Template-literals)
 	* [1.3 addEventListener() method](#13---addEventListener()-method)
-	* [1.4 Double Click](#14---double--Click)
+	* [1.4 Double-Click](#14---double--Click)
 
 
 ---
@@ -46,7 +46,7 @@ Designing a unit converter website requires following some rules and taking into
 
 **[⬆ back to top](#table-of-contents)**
 
-### 1.2 - Template String
+### 1.2 - Template-String
 
 Why do we use template string. The main purpose is easy to read→ [Explanation](https://levelup.gitconnected.com/what-are-template-literals-and-why-should-you-use-it-in-javascript-3468bfaeb05d)
 
@@ -84,7 +84,7 @@ document.getElementById("myBtn").addEventListener("click", displayDate);
 **[⬆ back to top](#table-of-contents)**
 
 
-### 1.4 - Double Click
+### 1.4 - Double-Click
 
 * [ ] When double click the function will be actived.
       
