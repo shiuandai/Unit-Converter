@@ -18,7 +18,7 @@
 
 > The **Unit Converter** is my fourth static website, I practice to build the function() and use "Template String" to make code easily to read.
 
-I start the Scrimba Module 2 course- Web dev basics and learn how to use basic HTML, CSS & JavaScript knowledge. At the end of the course, I follow the Figma template to finish my hometown page where you can know more about me, take a look at the → [Unit Converter](https://shiuandai.github.io/Unit-Converter/).
+I start the Scrimba Module 2 course- Web dev basics and learn how to use basic HTML, CSS & JavaScript knowledge. At the end of the course, I follow the Figma template to finish the digital unit converter to quickly transfer the unit, take a look at the → [Unit Converter](https://shiuandai.github.io/Unit-Converter/).
 
 ## How I start the project?
 
